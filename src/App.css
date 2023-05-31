@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: white;
+  font-family: pragmatica-extended, sans-serif
+}
+
+#editorjs h1 {
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+
+#editorjs h2 {
+  font-size: x-large !important;
+  font-weight: bold !important;
+}
+#editorjs h3 {
+  font-size: large !important;
+  font-weight: bold !important;
+}
+#editorjs h4 {
+  font-size: medium !important;
+  font-weight: bold !important;
+}
+
+.ce-paragraph  {
+  color: white;
+}
+
+.gradient {
+  background: #ff5d02;
+  transition: .4s all
+}
+
+.gradient:hover {
+  background: #f8a207;
+}
+
+.ce-toolbar__plus path, .ce-toolbar__settings-btn path {
+  stroke: white !important;
+}
+
+.ce-popover {
+  background-color: #000;
+}
+
+.ce-popover__item-label {
+  color: white;
+  font-family: pragmatica-extended, sans-serif
+}
+
+.ce-popover__item {
+  transition: .4s all
+}
+
+.ce-popover__item:hover:not(.ce-popover__item--no-visible-hover) {
+  background-color: #272727;
+}
+
+.rodal-dialog {
+  background: black;
+  height: 160px !important;
+  border: 1px solid white
+}
